@@ -1,0 +1,21 @@
+{
+    "name": "derekisbusy/yii2-superfish",
+    "description": "Superfish assets for Yii2 projects",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," superfish"," html5"," js"," css"," menus"," yii2-extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Derek Gifford",
+            "email": "derekisbusy@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "derekisbusy\\superfish\\": ""
+        }
+    }
+}
