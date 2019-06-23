@@ -5,10 +5,10 @@ use yii\web\AssetBundle;
 
 class SuperfishAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/derekisbusy/superfish';
+    public $sourcePath = '@vendor/derekisbusy/yii2-superfish';
     
     public $js = [
-        'js/hoverIntent.min.js',
-        'js/superfish.min.js',
+        'js/hoverIntent.js',
+        YII_ENV_DEV ? 'js/superfish.js' : 'js/superfish.min.js',
     ];
 }
